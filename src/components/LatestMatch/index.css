@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #1e293b;
+  border-radius: 10px;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 575px) {
+  .latest-match-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+@media screen and (min-width: 575px) {
+  .container {
+    width: 60%;
+  }
+}
+
+.container1 {
+  width: 70%;
+}
+
+.competing-team {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.date {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+
+.venue {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.competing-team-logo {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (min-width: 575px) {
+  .competing-team-logo {
+    width: 120px;
+    height: 150px;
+  }
+}
+
+.container2 {
+  margin: 15px;
+}
+
+@media screen and (min-width: 575px) {
+  .container2 {
+    text-align: right;
+  }
+}
+
+.heads {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.tails {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 575px) {
+  .horizontal-line {
+    display: none;
+  }
+}

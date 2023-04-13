@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.list-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e293b;
+  border-radius: 10px;
+  width: 45%;
+  margin: 6px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 575px) {
+  .list-element {
+    width: 31%;
+  }
+}
+
+.match-card-logo {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 575px) {
+  .match-card-logo {
+    width: 85px;
+    height: 140px;
+  }
+}
+
+.competing-team1 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.result1 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.won {
+  color: rgb(12, 243, 12);
+}
+
+.loss {
+  color: rgb(252, 11, 11);
+}
